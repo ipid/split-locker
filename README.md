@@ -66,4 +66,4 @@ make
 
 ## Reference
 
-[1]: https://zhuanlan.zhihu.com/p/588584568	"多核心CPU Split lock滥用的攻防 - 知乎@Litrin"
+1. [Attack and Defense of Multi-core CPU Split-locking (Chinese), by Litrin@Zhihu](https://zhuanlan.zhihu.com/p/588584568)
