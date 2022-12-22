@@ -1,5 +1,8 @@
 <h1 align="center">Split-locker</h1>
-<p align="center"><i>A simple demonstration that shows how split-lock instructions can impact CPU performance.</i></p>
+<p align="center"><i>Demonstration that shows how split-lock instructions* can impact CPU performance.</i></p>
+<sub><i>*Split-lock instruction: An atomic operation which operates a memory address that is not well-aligned and crossing CPU cache-line.</i></sub>
+
+
 
 <br>
 
@@ -60,3 +63,7 @@ make
 ```
 
 <br>
+
+## Reference
+
+[1]: https://zhuanlan.zhihu.com/p/588584568	"多核心CPU Split lock滥用的攻防 - 知乎@Litrin"
