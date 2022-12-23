@@ -1,9 +1,6 @@
 <h1 align="center">Split-locker</h1>
 <p align="center"><i>Demonstration that shows how split-lock instructions* can impact CPU performance.</i></p>
-<sub><i>*Split-lock instruction: An atomic operation which operates a memory address that is not well-aligned and crossing CPU cache-line.</i></sub>
-
-
-
+<p><sub><i>*Split-lock instruction: An atomic operation which operates a memory address that is not well-aligned and crossing CPU cache-line.</i></sub></p>
 <br>
 
 ## Usage
@@ -59,7 +56,7 @@ cd build
 
 # Build the project
 cmake ..
-make
+cmake --build .
 ```
 
 <br>
