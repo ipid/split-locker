@@ -17,7 +17,7 @@ Run the demonstration with 8 threads:
 
 You should use MinGW-w64 for compilation.
 
-1. Install requirements:
+1. Enter `MSYS2 MinGW x64` command line and install requirements:
 
 ```Bash
 pacman -Sy mingw-w64-x86_64-cmake mingw-w64-clang-x86_64-toolchain
